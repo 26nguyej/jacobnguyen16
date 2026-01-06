@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Jacob Nguyen"
-  avatar : "/Users/jacobnguyen/Documents/25hoco-40.jpeg"
+  avatar : "25hoco-40.jpeg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
