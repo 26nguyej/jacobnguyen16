@@ -57,33 +57,24 @@ plugins:
 
 author:
   name   : "Jacob Nguyen"
-  avatar : "25hoco-40 (1).jpeg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "3F8562E6-E45F-4605-8F71-56233CFECE6B_1_201_a.jpeg"
+  bio    : "Hi my name is Jacob Nguyen. I am a Senior at Charlotte Latin School interested in CS/Engineering and Economics."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/26nguyej"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/jacobtn_/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/26nguyej"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/jacobtn_/"
 
 defaults:
   # _posts
