@@ -67,7 +67,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/jacobtn_/"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/jacob-nguyen-b01412388/"
 
 footer:
@@ -78,6 +78,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/jacobtn_/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/jacob-nguyen-b01412388/"
 
 defaults:
   # _posts
