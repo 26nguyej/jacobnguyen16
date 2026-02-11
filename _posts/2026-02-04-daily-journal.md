@@ -11,6 +11,13 @@ tags:
   - GitHub
 ---
 
+### February 10, 2026
+
+Today I began and finished the namesplitting for the 1983 metadata extraction, and then used the simple yearbook editor html to manually review names. There were 4 errors, and they were all resolved by me before being saved to an edited JSON file. After manually reviewing, I began the matching pipeline, which completed, and the next step is to use the matching review editor to match the activities and sports to the students.
+
+### February 6, 2026
+I completed verifying the metadata for the 1983 yearbook and began the extraction process, which took a long time. Then, I used claude to once gain generate the .yml file for the orchestrator to run the xtraction scripts. I was able to begin the extraction phase and complete it, generating a new file with records of names. 
+
 ### February 5, 2026
 Today, I continued verifying the metadata for the 1983 yearbook by cross referencing the pdf scan with the sheets extracted by gemini. I got about halfway through it today. 
 
