@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Jacob Nguyen Digital Portfolio
 email: jacobtnguyen16@gmail.com
-description: Personal portfolio and project log of Jacob Nguyen.
+description: "Personal portfolio and project log of Jacob Nguyen."
 
 twitter_username: username
 github_username: 26nguyej
