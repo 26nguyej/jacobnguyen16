@@ -10,6 +10,19 @@ tags:
   - Claude
   - GitHub
 ---
+### February 19, 2026
+ Today I worked on automating parts of our yearbook digitization pipeline to reduce the amount of manual work required 
+  per yearbook. I started by reviewing a document I'd put together analyzing where human time was being spent, then     
+  focused on what we called "Contact Point 2" — the name review step. I wrote a post-processing function that           
+  automatically detects and upgrades compound names like "Van Der Berg" or "Mary Beth" that our AI was flagging as
+  low-confidence even when the split was clearly correct. I also automated the creation of the edited records file so it
+   no longer requires manually opening a browser-based editor just to save a copy, and added a terminal summary that
+  tells you at the end of every run exactly which names still need human review — so you know instantly whether you even
+   need to open the editor at all. After testing the changes against real data from nine yearbooks, I documented
+  everything in a handoff doc and committed it to GitHub. I also mapped out the implementation plan for Contact Point 1,
+   which is the bigger automation — using our existing DPT-2 vision AI to automatically classify every page of a new
+  yearbook PDF and generate a draft YAML config, cutting what's currently a 2-3 hour manual setup process down to about
+  40 minutes of review.
 
 ### February 18, 2026
 We met with Mrs. Handford to walk her through the processes we have been executing so far in the yearbook project for her to get a good idea of where we are at. She also gave us some insight into her line of work and what she does for a living, as well as improvements that we can make to the process, such as working with the IT department to implement AWS to cloud store files and speed up our orchestration process. She said that she is currently working with them to give us access to that. Then, we read over the handoff document that Mr. Dubick gave us to update our landing AI models to the current DPT-2 because the old models are being deprecated soon.
