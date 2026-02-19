@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Jacob Nguyen"
   avatar : "3F8562E6-E45F-4605-8F71-56233CFECE6B_1_201_a.jpeg"
-  bio    : "Senior @ Charlotte Latin | Building at the intersection of CS, Engineering, and Econ."
+  bio    : "Senior @ Charlotte Latin <br> CS • Engineering • Economics"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
