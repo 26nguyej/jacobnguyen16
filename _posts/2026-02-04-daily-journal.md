@@ -10,6 +10,10 @@ tags:
   - Claude
   - GitHub
 ---
+
+### February 18, 2026
+We met with Mrs. Handford to walk her through the processes we have been executing so far in the yearbook project for her to get a good idea of where we are at. She also gave us some insight into her line of work and what she does for a living, as well as improvements that we can make to the process, such as working with the IT department to implement AWS to cloud store files and speed up our orchestration process. She said that she is currently working with them to give us access to that. Then, we read over the handoff document that Mr. Dubick gave us to update our landing AI models to the current DPT-2 because the old models are being deprecated soon.
+
 ### February 11, 2026
 Investigated the impact of Landing AI's upcoming DPT-1 model deprecation on our yearbook extraction pipeline. Identified that all 16 parallel extraction scripts rely on Landing AI's agentic_doc.parse() API, which defaults to DPT-1 server-side — meaning the Feb 17 technology change and Mar 31 shutdown would affect every extractor. Confirmed that downstream phases (name splitting, fuzzy matching, manual corrections) are unaffected. Cross-referenced findings with a teammate's independent analysis, then combined both into a unified 7-step migration plan covering SDK updates, server-side configuration, version pinning, baseline testing, and validation. Delivered the final plan as a formatted PDF for the team.
 
