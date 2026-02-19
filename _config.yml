@@ -19,7 +19,7 @@ description: "Personal portfolio and project log of Jacob Nguyen."
 
 twitter_username: username
 github_username: 26nguyej
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: "dark"
 search: true
 
 # Build settings
