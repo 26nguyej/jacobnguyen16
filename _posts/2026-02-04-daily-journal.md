@@ -10,6 +10,16 @@ tags:
   - Claude
   - GitHub
 ---
+
+### February 20, 2026
+
+Today I finished the full extraction pipeline for the 1983 Charlotte Latin School yearbook. I used the match review   
+  editor to manually resolve unmatched names from the sports and activities sections, then applied the corrections and
+  generated the final output — 1,125 person records with sports and club memberships fully linked. I also caught and    
+  fixed a bug in the transform script along the way. At the end of the day, I synced my branch with my Mr. Dubick's latest 
+  updates, which included faster parallel processing, smarter name matching, and better error handling across the       
+  pipeline.
+
 ### February 19, 2026
  Today I worked on automating parts of our yearbook digitization pipeline to reduce the amount of manual work required 
   per yearbook. I started by reviewing a document I'd put together analyzing where human time was being spent, then     
