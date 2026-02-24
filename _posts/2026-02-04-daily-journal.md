@@ -11,6 +11,9 @@ tags:
   - GitHub
 ---
 
+### February 23, 2026
+Today, I caught up with Mr. Dubick about the work he had completed over the weekend, catching myself up to speed on new scripts and updates he had made to the extraction protocol. I learned that he implemented universal IDs for each student to eventually be able to reference across multiple years' yearbooks in a chatbot. After going over the updates and pulling them from the main branch, I investigated an error in the 1990 yearbook formatting on the pdf and found out that 2 pages were missing, the title page was not counted as a page, and that there was a small half page section numbering 1-16 that all skewed the page numbers in relation to the pdf page numbers. I worked on editing this pdf for use and also reading over what Claude summarized for the new updates to the workflow.
+
 ### February 20, 2026
 
 Today I finished the full extraction pipeline for the 1983 Charlotte Latin School yearbook. I used the match review   
