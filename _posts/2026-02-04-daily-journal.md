@@ -10,6 +10,14 @@ tags:
   - Claude
   - GitHub
 ---
+### February 24, 2026
+Got the 1990 yearbook set up today — the old PDF had skewed page numbers, so I prepped a clean
+  version and got it into the pipeline. ran the automated page classifier on all 272 pages (took
+   about 16 min), which scanned every page with AI vision to figure out what's on each one —
+  class rosters, sports teams, clubs, faculty, etc., from which it auto-generated the YAML config
+  that drives the whole extraction pipeline. ended up with 33 sports teams, 11 activity clubs,
+  and all the student/faculty sections mapped out. The next step is reviewing the YAML and then
+  running the orchestrator to actually extract all the records.
 
 ### February 23, 2026
 Today, I caught up with Mr. Dubick about the work he had completed over the weekend, catching myself up to speed on new scripts and updates he had made to the extraction protocol. I learned that he implemented universal IDs for each student to eventually be able to reference across multiple years' yearbooks in a chatbot. After going over the updates and pulling them from the main branch, I investigated an error in the 1990 yearbook formatting on the pdf and found out that 2 pages were missing, the title page was not counted as a page, and that there was a small half page section numbering 1-16 that all skewed the page numbers in relation to the pdf page numbers. I worked on editing this pdf for use and also reading over what Claude summarized for the new updates to the workflow.
