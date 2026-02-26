@@ -10,6 +10,18 @@ tags:
   - Claude
   - GitHub
 ---
+### February 26, 2026
+Today I worked on digitizing the 1990 Charlotte Latin School yearbook as part of an ongoing 
+  data extraction pipeline. Before running the automated extraction, I reviewed the           
+  auto-generated YAML configuration file to verify page numbers, section mappings, and data
+  classifications. During the review, I identified an autograph page that had been
+  misclassified as a student roster and removed it from the config. I then ran the extraction
+  pipeline, which processes the yearbook PDF using AI to extract student, faculty, sports, and
+   activity records. When the pipeline returned unexpectedly low counts for middle and upper
+  school students, I diagnosed the root cause — incomplete grade breakdown entries in the
+  config were causing the extractor to skip most pages — and fixed the YAML so the full
+  extraction can complete in the next session.
+
 ### February 24, 2026
 Got the 1990 yearbook set up today — the old PDF had skewed page numbers, so I prepped a clean
   version and got it into the pipeline. ran the automated page classifier on all 272 pages (took
