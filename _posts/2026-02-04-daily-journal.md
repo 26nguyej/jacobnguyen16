@@ -10,6 +10,10 @@ tags:
   - Claude
   - GitHub
 ---
+
+### February 27, 2026
+Today, I updated the ReadMe file for my branch first, making sure the next scripts were added into the process. Then, I looked over the 1991 pdf to make sure the page numbers line up, and created the yaml in the background with Claude, while continuing the 1990 extraction I started the other day. I ran into an issue with missing name extractions in the 1990 extraction from last time, and Claude resolved the error, which had to do with grade division in the yearbook file. Then, I completed the 1990 extraction with manual review and matching with activities all up until before making the target schema. I plan to begin the 1991 extraction next time after manually reviewing the yaml file I created and beginning the orchestrator.
+
 ### February 26, 2026
 Today I worked on digitizing the 1990 Charlotte Latin School yearbook as part of an ongoing 
   data extraction pipeline. Before running the automated extraction, I reviewed the           
