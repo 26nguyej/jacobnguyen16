@@ -10,6 +10,11 @@ tags:
   - Claude
   - GitHub
 ---
+### March 3, 2026
+Today we merged main into my branch to make sure I had all the latest pipeline scripts and data, then knocked out Steps 7 and 8 for CLS1978 and CLS1979. For 1978 I only had 2 real corrections (Beth Godwin and   
+  Eddie Cooke), and for 1979 I found 26 corrections across 17 names — mostly initials, nicknames, and spelling variants like Buck Bryant, E. Fox, and D. Van Pelt. We also fixed 4 issues in the CLS1991 YAML config
+  after comparing it against the actual PDF — moved page 98 to Middle School, page 109 to Upper School, added Grade 4 to the grade breakdown, and corrected the teacher prefix from TCH to TEA. 1991 is now ready to 
+  run. I also started a quick fuzzy match pass on CLS1985 but ran out of time before finishing it. Everything got committed and pushed to Jacob_Branch.
 
 ### February 27, 2026
 Today, I updated the ReadMe file for my branch first, making sure the next scripts were added into the process. Then, I looked over the 1991 pdf to make sure the page numbers line up, and created the yaml in the background with Claude, while continuing the 1990 extraction I started the other day. I ran into an issue with missing name extractions in the 1990 extraction from last time, and Claude resolved the error, which had to do with grade division in the yearbook file. Then, I completed the 1990 extraction with manual review and matching with activities all up until before making the target schema. I plan to begin the 1991 extraction next time after manually reviewing the yaml file I created and beginning the orchestrator.
