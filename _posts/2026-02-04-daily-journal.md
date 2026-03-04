@@ -10,6 +10,13 @@ tags:
   - Claude
   - GitHub
 ---
+
+### March 4, 2026
+Started the CLS1993 yearbook extraction pipeline. Downloaded the final PDF (297 pages, with printed pages 11 and 13 missing), copied it into the project, and ran CP1 (page classification), which
+  completed with no LOW confidence pages — 280 HIGH, 17 MEDIUM across all 297 pages. The YAML config was auto-generated and reviewed: fixed the teacher prefix (TCH → TEA), added the late arrivals page (PDF p.287) 
+  to the upper school section so those students aren't missed, and skipped an informal friend group photo (PDF p.283) that isn't a real club. Also clarified that the missing pages don't affect the pipeline since
+  it works on PDF page positions, not printed numbers. The orchestrator extraction (CP3) is queued for next session.
+  
 ### March 3, 2026
 Today we merged main into my branch to make sure I had all the latest pipeline scripts and data, then knocked out Steps 7 and 8 for CLS1978 and CLS1979. For 1978 I only had 2 real corrections (Beth Godwin and   
   Eddie Cooke), and for 1979 I found 26 corrections across 17 names — mostly initials, nicknames, and spelling variants like Buck Bryant, E. Fox, and D. Van Pelt. We also fixed 4 issues in the CLS1991 YAML config
