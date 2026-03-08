@@ -160,6 +160,13 @@ The result is a unified dataset with stable person identifiers that can power a 
 One of the main challenges that I faced early on was getting the hang of the complex and intricate pipeline processes involved with the extraction. It was especially difficult to understand the actions of the Python scripts and certain terminal actions when using Claude Code, and I had to repeatedly ask Claude to explain to me what it was doing. Moreover, in the early stages of the process, before we made improvements, Gemini's extraction of the page numbers and name counts was inaccurate or skewed, which I had to remedy by manually going through the pdf and visually checking each metadata point. A challenge that went on throughout the process is that even though we got 90-96% accuracy on the extractions, those few data points and names would be either extracted incorrectly or the spellings were inconsistent throughout parts of the yearbook. This made it difficult to match certain students in the person records with sports and activities in the matching pipeline. Moreover, there is no fix for the case where certain coaches who were not a part of the official school faculty are not in the personnel records. 
 
 # Daily Journal
+
+### March 6, 2026
+Today I presented the extraction pipeline to my classmates, detailing each step and answering questions when asked.
+
+### March 5, 2026
+Today I listened to my classmates presentations, evaluating them on numerous categories and waited for my turn to present.
+
 ### March 4, 2026
 Started the CLS1993 yearbook extraction pipeline. Downloaded the final PDF (297 pages, with printed pages 11 and 13 missing), copied it into the project, and ran CP1 (page classification), which
   completed with no LOW confidence pages — 280 HIGH, 17 MEDIUM across all 297 pages. The YAML config was auto-generated and reviewed: fixed the teacher prefix (TCH → TEA), added the late arrivals page (PDF p.287) 
@@ -239,8 +246,25 @@ Today, I continued verifying the metadata for the 1983 yearbook by cross referen
 ### February 4, 2026  
 Today was our first day back after having Monday and Tuesday off due to snow. I focused on finishing the 1981 extraction matching and generating the final file, then began working on the 1983 extraction. Most of my time was spent visually cross-referencing the 1983 metadata with the PDF scan to ensure that the name counts were accurate.
 
+### February 2-3 
+No class due to snow days
+
+### January 29, 2026
+ Today I opened the simple yearbook editor to review the name-split results for the 1981 yearbook. Went
+   through the low-confidence names, fixed the ones I could confirm were errors, and saved the edited
+  file. Started looking at the matching pipeline next but ran out of time before finishing.
+
 ### January 28, 2026  
 Today was our first day back in class since last week due to a snow day on Monday and drop day on Tuesday. I received the API key from Mr. Dubick and configured it in Claude Code to run the name-splitting script on the extracted data. After completing name splitting, I was ready to integrate the data into the simple yearbook editor HTML. However, I ran out of time because the name-splitting process took a significant amount of time to complete.
+
+### January 26, 2026
+ No class — snow day.
+
+### January 23, 2026
+Today I went through the YAML config for the 1981 yearbook and manually compared the page counts
+  against the actual PDF to make sure everything lined up. Cross-referencing page by page takes a while
+  but it's important to catch anything off before running extraction. Also started looking into getting
+  the API key set up so I can run name splitting next time.
 
 ### January 22, 2026  
 Today, I used Claude to generate the `.yml` file for the 1981 yearbook metadata so the orchestrator could run the extraction scripts. I completed the extraction phases up through name splitting. Tomorrow, I plan to screen the data by manually comparing the YAML file counts against the actual PDF, and then create an API key to use Claude’s Haiku model for name splitting.
@@ -250,3 +274,27 @@ Today, Mr. Dubick allowed Max and me to sign up for a Claude Pro account so we c
 
 ### January 20, 2026  
 Today, Max and I used Mr. Dubick’s laptop to run Claude Code and begin the data extraction process using the 1980 yearbook metadata to create a `.yml` file. This took most of the class period because Claude had to revisit and fix several errors, and the orchestrator program was unable to pull data from Middle School activities or sports. By the end of class, we had Claude generate a summary of the day’s activities so Mr. Dubick could review our progress later, and we pushed the new files to the GitHub repository.
+
+### January 9, 2026
+ Built out the Gantt chart today, mapping each remaining task against the calendar for the rest of the
+  semester. Having it laid out visually made it a lot easier to see where things were tight and where
+  there was more breathing room.
+
+### January 8, 2026
+ Walked Mr. Dubick through the task analysis and project plans today and got his approval to move
+  forward. He had a few notes on the timeline but was generally on board with the direction.
+  
+### January 7, 2026
+ Created a task analysis breaking down what still needs to get done and roughly how long each task will
+   take. Helped clarify where the priorities are for the rest of the semester and where the biggest time
+   sinks are going to be.
+
+### January 6, 2026
+  Worked through the status report today and filled out the design specifications, bill of materials,
+  and functional requirements page. This gave us a clear picture of what components we need and how
+  everything is supposed to work together.
+
+### January 5, 2026
+Today I updated the engineering GitHub page to make sure it was current with where the project stands
+  heading into the new semester. Cleaned up the layout and made sure all sections accurately reflected
+  our current progress.
