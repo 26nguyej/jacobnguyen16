@@ -160,6 +160,8 @@ The result is a unified dataset with stable person identifiers that can power a 
 One of the main challenges that I faced early on was getting the hang of the complex and intricate pipeline processes involved with the extraction. It was especially difficult to understand the actions of the Python scripts and certain terminal actions when using Claude Code, and I had to repeatedly ask Claude to explain to me what it was doing. Moreover, in the early stages of the process, before we made improvements, Gemini's extraction of the page numbers and name counts was inaccurate or skewed, which I had to remedy by manually going through the pdf and visually checking each metadata point. A challenge that went on throughout the process is that even though we got 90-96% accuracy on the extractions, those few data points and names would be either extracted incorrectly or the spellings were inconsistent throughout parts of the yearbook. This made it difficult to match certain students in the person records with sports and activities in the matching pipeline. Moreover, there is no fix for the case where certain coaches who were not a part of the official school faculty are not in the personnel records. 
 
 # Daily Journal
+### March 11
+Today, I built out a Gantt chart with Max to plan out the next month before the engineering showcase. We planned out the future extractions as well as finalizing the photo extraction. 
 
 ### March 6, 2026
 Today I presented the extraction pipeline to my classmates, detailing each step and answering questions when asked.
