@@ -161,6 +161,9 @@ One of the main challenges that I faced early on was getting the hang of the com
 
 # Daily Journal
 
+### March 24
+Today I worked on the 1995 extraction, which ran into some problems with the page alignment and had to rerun multiple times. It failed to extract the senior sections and more, which added to the compile time largely.
+
 ### March 23 
 Today I worked on completing the final step for a handful of yearbooks from the 1980s that were missing the final target schema transformation.
 
