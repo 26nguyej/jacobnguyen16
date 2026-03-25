@@ -161,6 +161,9 @@ One of the main challenges that I faced early on was getting the hang of the com
 
 # Daily Journal
 
+### March 25
+Today I finished up the matching pipeline and applied corrections for the 1995 yearbook. I finished the final schema transfiguration as well and started the orchestration and extraction for the 1997 yearbook. I got about 1/3 to 1/2 way done with that and will finish it after class.
+
 ### March 24
 Today I worked on the 1995 extraction, which ran into some problems with the page alignment and had to rerun multiple times. It failed to extract the senior sections and more, which added to the compile time largely.
 
