@@ -161,6 +161,8 @@ One of the main challenges that I faced early on was getting the hang of the com
 
 # Daily Journal
 
+### March 26
+Today I continued extracting the 1997 yearbook data, running into some problems extracting the Upper school students and upper school activities which caused me to have to rerun the extraction.
 ### March 25
 Today I finished up the matching pipeline and applied corrections for the 1995 yearbook. I finished the final schema transfiguration as well and started the orchestration and extraction for the 1997 yearbook. I got about 1/3 to 1/2 way done with that and will finish it after class.
 
